@@ -1,5 +1,5 @@
 package com.ut.servlet;
-
+//杩滅▼鏇存柊
 import java.io.IOException;
 import java.io.PrintWriter;
 
@@ -33,11 +33,11 @@ public class MyServlet extends HttpServlet {
 		String mobile = request.getParameter("mobile");
 		if("138123456".equals(mobile)) {
 			//out.print("true");
-			//如果是json
+			//脠莽鹿没脢脟json
 			out.print("{\"msg\":\"true\"}");
 		}else {
 //			out.print("false");
-			//如果是json
+			//脠莽鹿没脢脟json
 			out.print("{\"msg\":\"false\"}");
 		}
 		out.close();
